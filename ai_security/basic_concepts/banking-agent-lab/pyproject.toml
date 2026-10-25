@@ -1,0 +1,12 @@
+[project]
+name = "banking-agent-lab"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "cryptography>=50.0.1",
+    "fastapi>=0.162.0",
+    "pyjwt>=2.14.0",
+    "uvicorn>=0.52.4",
+]
